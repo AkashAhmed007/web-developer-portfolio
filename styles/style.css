@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 'lato','sans-serif';
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight:700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+nav a{
+    color: #474747;
+    text-decoration: none;
+}
